@@ -27,6 +27,7 @@ class FacebookController extends Controller
     //     }
     // }
 
+    //updated facebook login
     public function redirectToFB()
     {
         return Socialite::driver('facebook')->redirect();
